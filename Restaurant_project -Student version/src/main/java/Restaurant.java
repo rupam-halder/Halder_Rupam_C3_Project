@@ -24,7 +24,6 @@ public class Restaurant {
         } else {
             return false;
         }
-        //return getCurrentTime().compareTo(openingTime) >=0 && getCurrentTime().compareTo(closingTime) <0;
     }
 
     public LocalTime getCurrentTime(){ return  LocalTime.now(); }
